@@ -1,0 +1,352 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position:fixed;  
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    margin-left: 83%;
+    margin-top: 15px;
+    display:flex;
+}
+
+#search{
+    position:fixed;
+    z-index:2;
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top:35px;
+    display:flex;
+}
+
+.img2{
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    z-index: 2;
+    margin-left:77%;
+    margin-top: 37px;
+    display: flex;
+}
+
+.bar {
+    background: linear-gradient(to right, lightgoldenrodyellow, lightgrey);
+    overflow: scroll;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}   
+
+.back{
+    position:absolute;
+}
+
+.back>a>img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+.event{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 225px; 
+    display: flex;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:55%;
+    top: 25%;
+    left: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.event1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;    
+}
+
+.Text1{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 240px;
+}
+
+.border3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:55%;
+    top: 25%;
+    left: 575px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.event2{
+    position: absolute;
+    display: flex;
+    width: 48%;
+    height: 48%;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+
+.Text2{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 250px;
+}
+
+.border4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:55%;
+    top: 25%;
+    left: 65%;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.event3{
+    position: absolute;
+    display: flex;
+    width: 55%;
+    height: 50%;
+    margin-top: 30px;
+}
+
+.Text3{
+    text-align:justify;
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 260px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 768px){
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position:fixed;  
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    margin-left: 83%;
+    margin-top: 15px;
+    display:flex;
+}
+
+#search{
+    position:fixed;
+    z-index:2;
+    width: 45%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 35%;
+    margin-top:35px;
+    display:flex;
+}
+
+.img2{
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    z-index: 2;
+    margin-left:75%;
+    margin-top: 37px;
+    display: flex;
+}
+
+.bar {
+    background: linear-gradient(to right, lightgoldenrodyellow, lightgrey);
+    overflow: scroll;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}   
+
+.back{
+    position:absolute;
+}
+
+.back>a>img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    margin-left: 50px;
+    margin-top: 25px;
+}
+
+.event{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 130px; 
+    display: flex;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:70%;
+    top: 25%;
+    left: 50px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.event1{
+    margin-top: 70px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    justify-content: center;    
+}
+
+.Text1{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 225px;
+}
+
+.border3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:70%;
+    top: 25%;
+    left: 285px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.event2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-top: 70px;
+}
+
+.Text2{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 225px;
+}
+
+.border4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width: 25%;
+    height:70%;
+    top: 25%;
+    right: 50px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.event3{
+    position: absolute;
+    display: flex;
+    width: 25%;
+    height: 25%;
+    margin-right: 75px;
+    margin-top: 70px;
+}
+
+.Text3{
+    text-align:justify;
+    position: absolute;
+    display: flex;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 225px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+}

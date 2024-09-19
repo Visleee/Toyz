@@ -1,0 +1,314 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.image-container{
+    margin-top: 320%;
+    margin-left: 50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+h1{
+    margin-left: 15px;
+    margin-top: 40px;
+    padding: 5px;
+
+}
+
+form{
+    position: absolute;
+    border: 2px solid;
+    border-radius: 20px;
+    background: linear-gradient(to right, yellow, lightgrey);
+    font-size: 18px;
+    font-weight: 700;
+    width:35%;
+    height:70%;
+    top: 125px;
+    left: 900px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.username{
+    width: 65%;
+    height: 30px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+#username{
+    width: 100%;
+    height: 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.calender{
+    width: 65%;
+    height: 30px;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+#calender{
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.email{
+    width: 65%;
+    height: 30px;
+    margin-top: 25px;
+    padding: 5px;
+}
+
+#email{
+    width: 98%;
+    height: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.password{
+    width: 65%;
+    height: 30px;
+    margin-top: 25px;
+}
+
+#password{
+    width: 98%;
+    height: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.agree{
+    width: 100%;
+    height: 30px;
+    font-size: small;
+    margin-top: 30px;
+    margin-left: 200px;
+    padding: 8px;
+}
+
+span{
+    width: 40%;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.Register{
+    width: 200px;
+    height: 5px;
+    margin-left: 65px;
+    border-radius:10px;
+    display: flex;
+    align-items:center;
+}
+
+button{
+    background-color: lightgoldenrodyellow;
+    width: 200px;
+    height: 28px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius:10px;
+    display:flex;
+}
+
+button:hover{
+    background-color: lightskyblue;
+    transition: 0,3s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: grey;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.forgot{
+    position: absolute;
+    display: flex;
+    margin-left: 45%;
+    margin-top: 78%;
+
+    
+    font-size: 15px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    body{
+        /* background-color: red; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .image-container{
+        position: relative;
+        width: 100%;
+        margin-top: 320%;
+        display:flex;
+        align-items:left;
+    }
+
+    h1{
+        margin-left: 15px;
+        margin-top: 40px;
+        padding: 5px;
+
+    }
+
+    form{
+        position: absolute;
+        border: 2px solid;
+        border-radius: 20px;
+        background: linear-gradient(to right, yellow, lightgrey);
+        font-size: 18px;
+        font-weight: 700;
+        width:35%;
+        height:70%;
+        top: 125px;
+        left: 500px;
+        display:flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+    }
+
+    .username{
+        width: 65%;
+        height: 30px;
+        margin-top: 5px;
+        padding: 5px;
+    }
+
+    #username{
+        width: 100%;
+        height: 20px;
+        border-radius: 8px;
+        margin-top: 10px;
+    }
+
+    .calender{
+        width: 65%;
+        height: 30px;
+        margin-top: 25px;
+        padding: 5px;
+    }
+
+    #calender{
+        width: 100%;
+        height: 20px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .email{
+        width: 65%;
+        height: 30px;
+        margin-top: 25px;
+        padding: 5px;
+    }
+
+    #email{
+        width: 98%;
+        height: 12px;
+        margin-top: 10px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    .password{
+        width: 65%;
+        height: 30px;
+        margin-top: 25px;
+    }
+
+    #password{
+        width: 98%;
+        height: 15px;
+        margin-top: 10px;
+        border-radius: 8px;
+        padding: 5px;
+    }
+
+    .agree{
+        width: 100%;
+        height: 30px;
+        font-size: 10px;
+        margin-top: 30px;
+        margin-left: 100px;
+        padding: 8px;
+    }
+
+    span{
+        width: 40%;
+        height: 20px;
+        margin-top: 10px;
+        border-radius: 8px;
+    }
+
+    .Register{
+        width: 200px;
+        height: 5px;
+        margin-left: 55px;
+        border-radius:10px;
+        display: flex;
+        align-items:center;
+    }
+
+    button{
+        background-color: lightgoldenrodyellow;
+        width: 180px;
+        height: 28px;
+        margin-top: 25px;
+        margin-left: 10px;
+        padding: 10px;
+        border-radius:10px;
+        display:flex;
+    }
+
+    button:hover{
+        background-color: lightskyblue;
+        transition: 0,3s ease-in-out;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+    a:hover{
+        color: grey;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    .forgot{
+        position: absolute;
+        display: flex;
+        margin-left: 30%;
+        margin-top: 155%;
+
+        
+        font-size: 15px;
+    }
+
+}
+    

@@ -1,0 +1,534 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position:fixed;  
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    margin-left: 83%;
+    margin-top: 15px;
+    display:flex;
+}
+
+#search{
+    position:fixed;
+    z-index:2;
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top:35px;
+    display:flex;
+}
+
+.img2{
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    z-index: 2;
+    margin-left:77%;
+    margin-top: 37px;
+    display: flex;
+}
+
+.bar {
+    background: linear-gradient(to right, lightgoldenrodyellow, lightgrey);
+    overflow: scroll;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}   
+
+.back{
+    position:absolute;
+}
+
+.back>a>img{
+    height: 60px;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+.Product{
+    position: fixed;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 225px; 
+    display: flex;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:65%;
+    top: 20%;
+    left: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.Tamiya{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;    
+}
+
+.Text1{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 300px;
+}
+
+.border3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:65%;
+    top: 20%;
+    left: 575px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.buzzLightYear{
+    margin-top: 40px;
+}
+
+.Text2{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 310px;
+}
+
+.border4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:65%;
+    top: 20%;
+    right: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.Barbie{
+    margin-top: 20px;
+}
+
+.Text3{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 310px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.border5{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:65%;
+    top: 90%;
+    left: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.Gundam{
+    position: absolute;
+    width: 65%;
+    height: 65%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.Text4{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 350px;
+}
+
+.border6{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:65%;
+    top: 90%;
+    left: 575px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.Nintendo{
+    position: absolute;
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+}
+
+.Text5{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 330px;
+}
+
+.border7{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:65%;
+    top: 90%;
+    margin-left: 65.3%;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.HotWheel{
+    position: absolute;
+    display: flex;
+    width: 50%;
+    height: 50%;
+    margin-right: 50%;
+    margin-top: 40px;
+
+}
+
+.Text6{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 330px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 768px){
+    *,
+html{
+    /* background-color: red; */
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position:fixed;  
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    margin-left: 83%;
+    margin-top: 15px;
+    display:flex;
+}
+
+#search{
+    position:fixed;
+    z-index:2;
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top:35px;
+    display:flex;
+}
+
+.img2{
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    z-index: 2;
+    margin-left:75%;
+    margin-top: 37px;
+    display: flex;
+}
+
+.bar {
+    background: linear-gradient(to right, lightgoldenrodyellow, lightgrey);
+    overflow: scroll;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}   
+
+.back{
+    position:absolute;
+}
+
+.back>a>img{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.Product{
+    position: fixed;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 75px; 
+    display: flex;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:65%;
+    top: 20%;
+    left: 50px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.Tamiya{
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;    
+}
+
+.Text1{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 300px;
+}
+
+.border3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:65%;
+    top: 20%;
+    left: 410px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.buzzLightYear{
+    margin-top: 40px;
+}
+
+.Text2{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 310px;
+}
+
+.border4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:65%;
+    top: 90%;
+    left: 50px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.Barbie{
+    margin-top: 20px;
+}
+
+.Text3{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 310px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.border5{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:65%;
+    top: 90%;
+    left: 410px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.Gundam{
+    position: absolute;
+    width: 65%;
+    height: 65%;
+    margin-top: 30px;
+    display: flex;
+}
+
+.Text4{
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 330px;
+}
+
+.border6{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:65%;
+    top: 160%;
+    left: 50px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.Nintendo{
+    position: absolute;
+    display: flex;
+    width: 70%;
+    height: 70%;
+    margin-top: 10px;
+}
+
+.Text5{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 310px;
+}
+
+.border7{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:65%;
+    top: 160%;
+    margin-left: 410px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.HotWheel{
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 40%;
+    margin-right: 50%;
+    margin-top: 60px;
+
+}
+
+.Text6{
+    text-align: justify;
+    position: absolute;
+    display: flex;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 330px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+}

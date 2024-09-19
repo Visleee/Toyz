@@ -1,0 +1,445 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position:fixed;  
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    margin-left: 83%;
+    margin-top: 15px;
+    display:flex;
+}
+
+#search{
+    position:fixed;
+    z-index:2;
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top:35px;
+    display:flex;
+}
+
+.img2{
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    z-index: 2;
+    margin-left:77%;
+    margin-top: 37px;
+    display: flex;
+}
+
+.bar {
+    background: linear-gradient(to right, lightgoldenrodyellow, lightgrey);
+    overflow: scroll;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}   
+
+.back{
+    position:absolute;
+}
+
+.back>a>img{
+    height: 60px;
+    width: 60px;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+.Gallery{
+    position: fixed;
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 225px; 
+    display: flex;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:40%;
+    top: 20%;
+    left: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.store1{
+    width: 95%;
+    margin-top: 10px;
+    height: 95%;
+    display: flex;
+    justify-content: center;    
+}
+
+.border5{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:40%;
+    top: 20%;
+    left: 575px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store2{
+    margin-left: 110px;
+    width: 120%;
+    margin-top: 10px;
+    height: 95%;
+    display: flex;
+}   
+
+.border3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:40%;
+    top: 20%;
+    right: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store3{
+    position: absolute;
+    width: 95%;
+    margin-top: 10px;
+    height: 95%;
+    display: flex;
+    justify-content: center; 
+}
+
+.border6{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:40%;
+    top: 65%;
+    left: 150px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.store4{
+    position: absolute;
+    width: 95%;
+    margin-top: 10px;
+    height: 95%;
+    display: flex;
+    justify-content: center; 
+}
+
+.border4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:40%;
+    top: 65%;
+    left: 575px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store5{
+    position: absolute;
+    width: 95%;
+    margin-top: 10px;
+    height: 95%;
+    display: flex;
+    justify-content: center; 
+}
+
+.border7{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:25%;
+    height:40%;
+    top: 65%;
+    margin-left: 65.3%;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store6{
+    position: absolute;
+    width: 95%;
+    margin-top: 10px;   
+    height: 95%;
+    display: flex;
+    justify-content: center; 
+}
+
+@media only screen and (max-width: 768px){
+    *,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.img1{
+    position:fixed;  
+    width: 10%;
+    height: 10%;
+    z-index: 2;
+    margin-left: 83%;
+    margin-top: 15px;
+    display:flex;
+}
+
+#search{
+    position:fixed;
+    z-index:2;
+    width: 50%;
+    height: 40px;
+    padding-left: 20px;
+    border-radius: 8px;
+    margin-left: 30%;
+    margin-top:35px;
+    display:flex;
+}
+
+.img2{
+    position: fixed;
+    width: 10%;
+    height: 5%;
+    z-index: 2;
+    margin-left:75%;
+    margin-top: 37px;
+    display: flex;
+}
+
+.bar {
+    background: linear-gradient(to right, lightgoldenrodyellow, lightgrey);
+    overflow: scroll;
+    z-index: 2;
+    width: 100%;
+    height: 15vh;
+    position:fixed;
+}   
+
+.back{
+    position:absolute;
+}
+
+.back>a>img{
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.Gallery{
+    position: fixed;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 75px; 
+    display: flex;
+}
+
+.border2{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:40%;
+    top: 20%;
+    left: 30px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.store1{
+    width: 50%;
+    margin-top: 10px;
+    height: 90%;
+    display: flex;
+    justify-content: center;    
+}
+
+.border5{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:40%;
+    top: 20%;
+    left: 400px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store2{
+    justify-content: center;
+    width: 90%;
+    margin-top: 10px;
+    margin-right: 110px;
+    height: 90%;
+    display: flex;
+}   
+
+.border3{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width: 40%;
+    height:40%;
+    top: 65%;
+    left: 30px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store3{
+    width: 50%;
+    margin-top: 80px;
+    height: 50%;
+    display: flex;
+    justify-content: center; 
+}
+
+.border6{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:40%;
+    top: 65%;
+    left: 400px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+
+.store4{
+    width: 50%;
+    margin-top: 75px;
+    height: 50%;
+    display: flex;
+    justify-content: center; 
+}
+
+.border4{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:40%;
+    top: 110%;
+    left: 30px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store5{
+    position: absolute;
+    width: 70%;
+    margin-top: 50px;
+    height: 70%;
+    display: flex;
+    justify-content: center; 
+}
+
+.border7{
+    position:absolute;
+    border: 2px solid;
+    border-radius: 10px;
+    background: linear-gradient(to right bottom, lightgoldenrodyellow, lightgrey);
+    font-size: 18px;
+    font-weight: 100;
+    width:40%;
+    height:40%;
+    top: 110%;
+    margin-left: 400px;
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.store6{
+    position: absolute;
+    width: 65%;
+    margin-top: 50px;   
+    height: 65%;
+    display: flex;
+    justify-content: center; 
+}
+}
+
